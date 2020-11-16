@@ -10,43 +10,51 @@
 			<h1> PDF LaTeX Editor </h1>
 		</div>
 		<div class="button">
-			<a href="https://github.com/DUOLabs333/PDFLaTeXEditor" target="_blank" rel="noopener noreferrer"> <button> Link to Github </button> </a>
+			<a href="https://github.com/DUOLabs333/PDFLaTeXEditor" target="_blank" rel="noopener noreferrer"> Link to Github repository </a>
 		</div>
 		<div class="content">
 			<h2> What is this for?</h2>
 			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra ligula orci,
-			dignissim pretium justo tincidunt non. Aenean at elit a erat vehicula placerat eget 
-			et turpis. Aliquam tortor odio, blandit id nisi vitae, suscipit ullamcorper tortor. 
-			Phasellus quis augue luctus, ultricies sem pulvinar, viverra risus. Morbi eget convallis diam,
-			</p>
+			Currently there are no programs where you can add LaTeX formulas to a pdf while keeping the pdf as a pdf file. Other programs right now first convert the pdf
+			to an image before you can add LaTeX formulas. This program provides a simple GUI where you can load multiple pdfs and add LaTeX formulas to them. </p>
 			<h2> Wait, what's LaTeX?</h2>
 			<p>
 			LateX is a document preparation system that formats text for the author. It is especially great math 
 			and science, for example formatting an equation. For more information, see the 
 			<a href="https://www.latex-project.org/" target="_blank" rel="noopener noreferrer"> LaTeX website </a>.
 			</p>
-			<h2> How to use this?</h2>
-			<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra ligula orci,
-			dignissim pretium justo tincidunt non. Aenean at elit a erat vehicula placerat eget 
-			et turpis. Aliquam tortor odio, blandit id nisi vitae, suscipit ullamcorper tortor. 
-			Phasellus quis augue luctus, ultricies sem pulvinar, viverra risus. Morbi eget convallis diam,
-			</p>
+			</ol>
 			<h2> How to download? </h2>
-			<p> Go to Github repository linked above and ...</p>
+			<ol type="1">
+				<li> Go to Github repository linked above and and download the folder </li>
+				<br>
+				<li> Make sure you have Python 3.9 installed. If not, you can get it at the 
+				<a href=https://www.python.org/downloads/ target="_blank" rel="noopener noreferrer"> Python website </a>. </li>
+				<br>
+				<li> Make sure you have all needed modules (you can check by opening up PDFLaTeXEditor.py in IDLE and check under Dependencies. 
+					 For each ModuleName (of form import ModuleName), you can check in Command Line by doing python -m ModuleName. If it's not there, do simply pip install ModuleName. </li>
+				<br>
+				<li> Set up your export and import paths (importDir will be where you want the program to open your PDFs and output the .duo files to, exportDir is where you want the program
+					to output the edited PDFs at). Also set up the pdftocairoPath, which is the path where pdftocairo.exe is, and the libPath, which is where the lib folder in PDFLaTeXEditor is. </li>
+			</ol>
+			<h2> How to use?</h2>
+			<ol type="1">
+				<li>Open PDFLaTeXEditor.py with Python. You should see a simple GUI with a blank PDF with a "Load" and "Open" button on the left. 
+					You can press "Load" to open up a file dialog to select a file. You can choose a PDF file to convert into a duo file, or open a 
+					converted .duo file. After selecting, you press "Open" to open it. On the left, there are also a listbox where you can select the
+					page you want to go to. </li>
+			</ol>
+			<br>
 		</div>
 		<div class="images">
 			<br>
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/800px-Meisje_met_de_parel.jpg">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/800px-Meisje_met_de_parel.jpg">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/800px-Meisje_met_de_parel.jpg">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/800px-Meisje_met_de_parel.jpg">
-			<br>
+			<img src="PDFLaTeXEditor.png" alt="Screenshot of GUI" class="center" >
+			<p> A screenshot of the GUI in practice </p>
 		</div>
+		<br>
 		<div class="extras">
 			<h3> About Us </h3>
-			<p> David Ugo-Omenukwa is a _____ at _____. He was responsible for the idea, design, and implementation of this project.</p>
+			<p> David Ugo-Omenukwa is a senior at Bronx High School of Science. He was responsible for the idea, design, and implementation of this project.</p>
 			<a href="https://github.com/DUOLabs333" target="_blank" rel="noopener noreferrer"> David's Github Repository</a>
 			<p> Cullen Anderson is a junior at Stuyvesant High School. He was responsible for the creation of this website.</p>
 			<a href="https://github.com/cullena20" target="_blank" rel="noopener noreferrer"> Cullen's Github Repository</a>
