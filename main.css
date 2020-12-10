@@ -1,4 +1,5 @@
-html {font-family: "Arial"; background-color: blanchedalmond;}
+html {font-family: "Arial"; background-color: #151616; color: white;}
+a { color: #5a5ad0; }
 .header { text-align: center; }
 .button { text-align: center; color: white; }
 img { height: 522px; width: 1000px; display: block; margin-left: auto; margin-right: auto; }
